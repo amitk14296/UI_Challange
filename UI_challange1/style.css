@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    background-image: url(./Assets/greatest-running-tips-of-all-time_h.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 3px 3px 5px rgba(244, 235, 235, 0.8);
+}
+
+
+.navbar ul{
+    list-style-type: none;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navbar li{
+    height: 100%;
+    margin: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+
+.navbar a:hover{
+    background-color: #355caa;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.maincontent{
+    margin-left: 20px;
+}
+
+#button1 button{
+    background-color: rgb(224, 151, 13);
+}
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
