@@ -49,15 +49,23 @@ h1{
     text-align: center;
 }
 
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
 .maincontent{
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #button1 button{
     background-color: rgb(224, 151, 13);
 }
-#button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+
